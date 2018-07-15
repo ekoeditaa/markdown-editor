@@ -11,6 +11,10 @@
             background-color: #f4f7f7;
         }
 
+        textarea {
+            resize: none;
+        }
+
         .header-text h4 {
             color: #454552;
         }
@@ -49,7 +53,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <textarea id="editor" class="form-control" v-model="rawMarkdown" stlye="resize: none;"></textarea>
+                <textarea id="editor" class="form-control" v-model="rawMarkdown"></textarea>
             </div>
             <div id="preview" class="col-md-6">
                 <div class="panel panel-default">
